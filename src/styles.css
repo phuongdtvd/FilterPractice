@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.items {
+  margin: 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+}
+
+img {
+  width: 150px;
+  height: 170px;
+}
+
+.item {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category {
+  margin: 10px;
+  border: 2px solid;
+  padding: 5px;
+}
+
+.active {
+  background-color: #efc050;
+}
